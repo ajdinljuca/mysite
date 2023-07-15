@@ -115,16 +115,20 @@ img {
     grid-area: 1 / 1 / 2 / 2;
   }
   .div1 {
-    grid-area: 1 / 2 / 2 / 3;
+    grid-area: 1 / 2 / 2 / 1;
     color: white;
+    background: red;
   }
   .projects {
     grid-area: 2 / 2 / 3 / 3;
+    background: red;
   }
   .div3 .div3-1 {
     grid-area: 3 / 2 / 4 / 3;
+    background: red;
   }
   .div5 {
     grid-area: 4 / 2 / 5 / 3;
+    background: red;
   }
 }
