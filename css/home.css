@@ -209,3 +209,36 @@ img {
     font-size: 2rem;
   }
 }
+
+@media (min-width: 481px) {
+  .div6 {
+    display: none;
+  }
+  .element2 {
+    grid-area: 3 / 4 / 9 / 11;
+  }
+  .element3 {
+    grid-area: 4 / 3 / 2 / 3;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .element7 {
+    grid-area: 11 / 8 / 7 / 8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .element71 {
+    grid-area: 11 / 3 / 7 /4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .element8 {
+    grid-area: 12 / 7 / 12 / 11;
+  }
+  .item8 {
+    font-size: 2rem;
+  }
+}
