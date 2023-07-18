@@ -209,11 +209,7 @@ img {
     font-size: 2rem;
   }
 }
-
 @media (min-width: 481px) {
-  .div6 {
-    display: none;
-  }
   .element2 {
     grid-area: 3 / 4 / 9 / 11;
   }
@@ -240,5 +236,18 @@ img {
   }
   .item8 {
     font-size: 2rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .element7 {
+    display: none;
+  }
+
+  .element2:hover + .element7 {
+    display: block;
+  }
+  .house:hover + .element7 {
+    display: block;
   }
 }
